@@ -47,7 +47,7 @@ class Skill(ABC):
 
 
 class FuryPunch(Skill):
-    name = "Свирепый пинок"
+    name = "мощный взмах"
     stamina = 6
     damage = 12
 
@@ -63,7 +63,7 @@ class FuryPunch(Skill):
         return f"{self.user.name} использует {self.name} и наносит {self.damage} урона сопернику."
 
 class HardShot(Skill):
-    name = "Свирепый пинок"
+    name = "короткий удар"
     stamina = 5
     damage = 15
 
